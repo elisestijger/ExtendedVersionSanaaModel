@@ -1,5 +1,5 @@
 #open Small 1
-small1 <- read.table("/Users/elisestijger/Desktop/scriptie/runs modellen/Own code/1own" ,  header = T,   # set columns names true
+small1 <- read.table("..." ,  header = T,   # set columns names true
                      sep = ",",    # define the separator between       columns
                      skip = 6,     # skip first 6 rows 
                      quote = "\"", 
@@ -11,7 +11,7 @@ Mean1 <- mean(as.numeric(small1[19,2:51]))
 SD1 <- sd(as.numeric(small1[19,2:51]))    
 
 #open Small 2
-small2 <- read.table("/Users/elisestijger/Desktop/scriptie/runs modellen/Own code/2own" ,  header = T,   # set columns names true
+small2 <- read.table("..." ,  header = T,   # set columns names true
                      sep = ",",    # define the separator between       columns
                      skip = 6,     # skip first 6 rows 
                      quote = "\"", 
@@ -24,7 +24,7 @@ SD2 <- sd(as.numeric(small2[19,2:51]))
 
 
 #open Small 3
-small3 <- read.table("/Users/elisestijger/Desktop/scriptie/runs modellen/Own code/3own" ,  header = T,   # set columns names true
+small3 <- read.table(".." ,  header = T,   # set columns names true
                      sep = ",",    # define the separator between       columns
                      skip = 6,     # skip first 6 rows 
                      quote = "\"", 
@@ -36,7 +36,7 @@ Mean3 <- mean(as.numeric(small3[19,2:51]))
 SD3 <- sd(as.numeric(small3[19,2:51]))    
 
 #open Small 4
-small4 <- read.table("/Users/elisestijger/Desktop/scriptie/runs modellen/Own code/4own" ,  header = T,   # set columns names true
+small4 <- read.table("..." ,  header = T,   # set columns names true
                      sep = ",",    # define the separator between       columns
                      skip = 6,     # skip first 6 rows 
                      quote = "\"", 
@@ -48,7 +48,7 @@ Mean4 <- mean(as.numeric(small4[19,2:51]))
 SD4 <- sd(as.numeric(small4[19,2:51]))    
 
 #open Small 5
-small5 <- read.table("/Users/elisestijger/Desktop/scriptie/runs modellen/Own code/5own" ,  header = T,   # set columns names true
+small5 <- read.table("..." ,  header = T,   # set columns names true
                      sep = ",",    # define the separator between       columns
                      skip = 6,     # skip first 6 rows 
                      quote = "\"", 
@@ -60,7 +60,7 @@ Mean5 <- mean(as.numeric(small5[19,2:51]))
 SD5 <- sd(as.numeric(small5[19,2:51]))    
 
 #open Small 6A
-small6A <- read.table("/Users/elisestijger/Desktop/scriptie/runs modellen/Own code/6Aown" ,  header = T,   # set columns names true
+small6A <- read.table("..." ,  header = T,   # set columns names true
                       sep = ",",    # define the separator between       columns
                       skip = 6,     # skip first 6 rows 
                       quote = "\"", 
@@ -72,7 +72,7 @@ Mean6A <- mean(as.numeric(small6A[19,2:51]))
 SD6A <- sd(as.numeric(small6A[19,2:51]))    
 
 #open Small 6B
-small6B <- read.table("/Users/elisestijger/Desktop/scriptie/runs modellen/Own code/6Bown" ,  header = T,   # set columns names true
+small6B <- read.table("..." ,  header = T,   # set columns names true
                       sep = ",",    # define the separator between       columns
                       skip = 6,     # skip first 6 rows 
                       quote = "\"", 
@@ -84,7 +84,7 @@ Mean6B <- mean(as.numeric(small6B[19,2:51]))
 SD6B <- sd(as.numeric(small6B[19,2:51]))    
 
 #open Small 7A
-small7A <- read.table("/Users/elisestijger/Desktop/scriptie/runs modellen/Own code/7Aown" ,  header = T,   # set columns names true
+small7A <- read.table("..." ,  header = T,   # set columns names true
                       sep = ",",    # define the separator between       columns
                       skip = 6,     # skip first 6 rows 
                       quote = "\"", 
@@ -96,7 +96,7 @@ Mean7A <- mean(as.numeric(small7A[19,2:51]))
 SD7A <- sd(as.numeric(small7A[19,2:51]))    
 
 #open Small 7B
-small7B <- read.table("/Users/elisestijger/Desktop/scriptie/runs modellen/Own code/7Bown" ,  header = T,   # set columns names true
+small7B <- read.table("..." ,  header = T,   # set columns names true
                       sep = ",",    # define the separator between       columns
                       skip = 6,     # skip first 6 rows 
                       quote = "\"", 
@@ -108,7 +108,7 @@ Mean7B <- mean(as.numeric(small7B[19,2:51]))
 SD7B <- sd(as.numeric(small7B[19,2:51]))  
 
 #open Small 7C
-small7C <- read.table("/Users/elisestijger/Desktop/scriptie/runs modellen/Own code/7Cown" ,  header = T,   # set columns names true
+small7C <- read.table("..." ,  header = T,   # set columns names true
                       sep = ",",    # define the separator between       columns
                       skip = 6,     # skip first 6 rows 
                       quote = "\"", 
